@@ -83,7 +83,7 @@ public class ActivityLoaderActivity extends Activity {
 		// TODO - Create a base intent for viewing a URL
 		// (HINT:  second parameter uses Uri.parse())
         Intent baseIntent = new Intent(Intent.ACTION_VIEW,
-                                       Uri.parse(String.valueOf(mUserTextView.getText())));
+                                       Uri.parse(URL));
 
 		
 		// TODO - Create a chooser intent, for choosing which Activity
@@ -91,8 +91,7 @@ public class ActivityLoaderActivity extends Activity {
 		// (HINT: Use the Intent class' createChooser() method)
 		Intent chooserIntent = null;
 
-        String url= String.valueOf(mUserTextView.getText());
-        chooserIntent = Intent.createChooser(baseIntent,"Load "+url);
+        chooserIntent = Intent.createChooser(baseIntent,CHOOSER_TEXT);
 		Log.i(TAG,"Chooser Intent Action:" + chooserIntent.getAction());
         
         
