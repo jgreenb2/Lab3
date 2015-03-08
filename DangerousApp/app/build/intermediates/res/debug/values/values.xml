@@ -7,6 +7,8 @@
     <!-- From: file:/Users/jgreenb2/Documents/2015%20Misc/Android/Lab3/DangerousApp/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">DangerousApp</string>
+    <string name="boom_description">This will allow your device to halt and catch fire</string>
+    <string name="boom_label">This one goes ker-pow!</string>
     <string name="hello_world">You have opened a dangerous activity</string>
     <!-- From: file:/Users/jgreenb2/Documents/2015%20Misc/Android/Lab3/DangerousApp/app/src/main/res/values/styles.xml -->
     <eat-comment/>

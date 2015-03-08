@@ -3,5 +3,6 @@
 
     <string name="app_name">DangerousApp</string>
     <string name="hello_world">You have opened a dangerous activity</string>
-
+    <string name="boom_description">This will allow your device to halt and catch fire</string>
+    <string name="boom_label">This one goes ker-pow!</string>
 </resources>
