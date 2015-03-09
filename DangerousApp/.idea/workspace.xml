@@ -18,20 +18,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d64088f7-65cb-48e2-a8cf-d9deed742f16" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/course/labs/dangerousapp/test/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PermissionsLab/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../PermissionsLab/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PermissionsLab/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../PermissionsLab/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PermissionsLab/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../PermissionsLab/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PermissionsLab/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../PermissionsLab/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PermissionsLab/app/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/../PermissionsLab/app/build/intermediates/resources/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PermissionsLab/app/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/../PermissionsLab/app/build/intermediates/resources/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PermissionsLab/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../PermissionsLab/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FragmentsLab/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../FragmentsLab/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PermissionsLab/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PermissionsLab/.idea/workspace.xml" />
     </list>
     <ignored path="DangerousApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1108,6 +1095,11 @@
       <created>1425821783995</created>
       <updated>1425821783995</updated>
     </task>
+    <task id="LOCAL-00001" summary="had to dumb-down my cool messages to get the app to pass the automated testing :(">
+      <created>1425832961398</created>
+      <updated>1425832961398</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1158,6 +1150,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="had to dumb-down my cool messages to get the app to pass the automated testing :(" />
+    <option name="LAST_COMMIT_MESSAGE" value="had to dumb-down my cool messages to get the app to pass the automated testing :(" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

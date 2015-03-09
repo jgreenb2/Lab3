@@ -16,12 +16,8 @@
     -->
     <permission
         android:name="course.labs.permissions.DANGEROUS_ACTIVITY_PERM"
-        android:description="@string/boom_description"
-        android:label="@string/boom_label"
         android:protectionLevel="dangerous" >
     </permission>
-
-    <uses-permission android:name="course.labs.permissions.DANGEROUS_ACTIVITY_PERM" />
 
     <application
         android:allowBackup="true"

@@ -1,6 +1,7 @@
 package course.labs.fragmentslab;
 
 import android.app.Activity;
+import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.util.Log;
@@ -9,9 +10,9 @@ public class MainActivity extends Activity implements
 		FriendsFragment.SelectionListener {
 
 	private static final String TAG = "Lab-Fragments";
-
 	private FriendsFragment mFriendsFragment;
 	private FeedFragment mFeedFragment;
+    private FragmentManager mFragmentManager;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -26,9 +27,12 @@ public class MainActivity extends Activity implements
 			mFriendsFragment = new FriendsFragment();
 
 			//TODO 1 - add the FriendsFragment to the fragment_container
-			
-			
-			
+			mFragmentManager = getFragmentManager();
+
+            FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
+            fragmentTransaction.add(R.id.fragment_container,mFriendsFragment);
+			fragmentTransaction.commit();
+
 
 		} else {
 
@@ -36,11 +40,12 @@ public class MainActivity extends Activity implements
 
 			mFeedFragment = (FeedFragment) getFragmentManager()
 					.findFragmentById(R.id.feed_frag);
+
 		}
 
 	}
 
-	// If there is no fragment_container ID, then the application is in
+  	// If there is no fragment_container ID, then the application is in
 	// two-pane mode
 
 	private boolean isInTwoPaneMode() {
@@ -66,8 +71,10 @@ public class MainActivity extends Activity implements
 
 			//TODO 2 - replace the fragment_container with the FeedFragment
 			
-
-			
+            FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.fragment_container,mFeedFragment);
+            fragmentTransaction.addToBackStack(null);
+			fragmentTransaction.commit();
 
 			// execute transaction now
 			getFragmentManager().executePendingTransactions();
